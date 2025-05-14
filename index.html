@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BHARAT</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 700px;
+    }
+
+    .main-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .continue-button {
+      position: absolute;
+      top: 55%; /* ✅ Adjust this to fine-tune position below "BHARAT" */
+      left: 52%;
+      transform: translate(-50%, -50%);
+      background-color: #0e5ea5;
+      color: white;
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .continue-button:hover {
+      background-color: #083d6a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Image -->
+    <img src="pexels-navneet-shanu-202773-672630.jpg" alt="Map of Bharat" class="main-image">
+
+    <!-- CONTINUE Button inside image, just under the word 'BHARAT' -->
+    <a href="states.html" class="continue-button">CONTINUE</a>
+  </div>
+
+</body>
+</html>
